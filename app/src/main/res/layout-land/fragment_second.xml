@@ -11,6 +11,7 @@
         android:id="@+id/txt1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:text="@string/FOR_HOW_LONG_DO_YOU_WANT_TO_STUDY"
         android:textSize="@dimen/text_size"
         android:textStyle="bold"
@@ -27,12 +28,11 @@
         android:layout_height="@dimen/button_height_size"
         android:text="@string/MINUTES"
         android:textSize="@dimen/button_text_size"
-        app:layout_constraintBottom_toTopOf="@+id/btn2"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/btn2"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt1"
-        app:layout_constraintVertical_bias="0.66" />
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btn2"
@@ -40,24 +40,23 @@
         android:layout_height="@dimen/button_height_size"
         android:text="@string/HOUR"
         android:textSize="@dimen/button_text_size"
-        app:layout_constraintBottom_toTopOf="@+id/btn3"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/btn3"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn1" />
+        app:layout_constraintStart_toEndOf="@+id/btn1"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/btn3"
         android:layout_width="@dimen/button_width_size"
         android:layout_height="@dimen/button_height_size"
-        android:layout_marginTop="50dp"
         android:text="@string/HOURS"
         android:textSize="@dimen/button_text_size"
-        app:layout_constraintBottom_toTopOf="@+id/btn4"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/btn4"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn2" />
+        app:layout_constraintStart_toEndOf="@+id/btn2" />
 
     <Button
         android:id="@+id/btn4"
@@ -65,12 +64,26 @@
         android:layout_height="@dimen/button_height_size"
         android:text="@string/BACK"
         android:textSize="@dimen/button_text_size"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn3"
-        app:layout_constraintVertical_bias="0.502" />
+        app:layout_constraintStart_toEndOf="@+id/btn3"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.43" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.57" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

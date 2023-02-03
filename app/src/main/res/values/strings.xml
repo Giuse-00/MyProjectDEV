@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">MyProject</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="START">START</string>
+    <string name="FOR_HOW_LONG_DO_YOU_WANT_TO_STUDY">FOR HOW LONG DO YOU WANT TO STUDY?</string>
+    <string name="MINUTES">30 MIN</string>
+    <string name="HOUR">1 HOUR</string>
+    <string name="HOURS">2 HOURS</string>
+    <string name="BACK">GO BACK</string>
 </resources>

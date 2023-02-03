@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MioProgetto</string>
+    <string name="hello_blank_fragment">Ciao blank fragment</string>
+    <string name="START">INIZIA</string>
+    <string name="FOR_HOW_LONG_DO_YOU_WANT_TO_STUDY">PER QUANTO TEMPO VUOI STUDIARE?</string>
+    <string name="MINUTES">30 MIN</string>
+    <string name="HOUR">1 ORA</string>
+    <string name="HOURS">2 ORE</string>
+    <string name="BACK">ESCI</string>
+</resources>

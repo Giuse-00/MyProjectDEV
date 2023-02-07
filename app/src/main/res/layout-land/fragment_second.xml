@@ -17,9 +17,9 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/btn1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.632"
         app:layout_constraintVertical_chainStyle="spread" />
 
     <Button
@@ -84,6 +84,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.57" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

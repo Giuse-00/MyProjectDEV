@@ -7,4 +7,9 @@
     <string name="HOUR">1 HOUR</string>
     <string name="HOURS">2 HOURS</string>
     <string name="BACK">GO BACK</string>
+    <string name="what_s_your_name">What\'s your name?</string>
+    <string name="error_name">Please enter your name</string>
+    <string name="noname">NO NAME</string>
+    <string name="welcome">Hi</string>
+    <string name="add">Add</string>
 </resources>

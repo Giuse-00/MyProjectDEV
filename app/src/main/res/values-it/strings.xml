@@ -8,4 +8,9 @@
     <string name="HOUR">1 ORA</string>
     <string name="HOURS">2 ORE</string>
     <string name="BACK">ESCI</string>
+    <string name="what_s_your_name">Come ti chiami?</string>
+    <string name="error_name">Inserisci il tuo nome</string>
+    <string name="noname">NO NOME</string>
+    <string name="welcome">Ciao</string>
+    <string name="add">AGGIUNGI</string>
 </resources>
